@@ -173,7 +173,6 @@ Nesta prática, você aprenderá a usar um **Dockerfile** para criar um ambiente
 
 Veja tutorial acima e crie seu Dockerfile no mesmo diretório dos códigos-fonte
 
-
 #### 2.2.4. Construindo a Imagem Docker
 
 Veja tutorial acima e construa a sua imagem docker.
