@@ -188,7 +188,7 @@ Lembre:
 
 Para **compilar e executar** seus códigos-fontes.  
 ```bash
-
+gcc nome_arquivo.c -o nome_executavel
 ```
 
 ---

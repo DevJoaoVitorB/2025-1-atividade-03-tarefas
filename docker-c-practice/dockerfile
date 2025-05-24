@@ -1,0 +1,20 @@
+# Imagem base Fedora
+FROM fedora:latest
+
+# Atualiza e instala GCC, Make e terminal fish
+RUN dnf -y update && \
+    dnf -y install gcc make fish && \
+    dnf clean all
+
+# gcc (o compilador C);
+# make (pra ajudar a compilar projetos com Makefiles);
+# fish (um shell mais moderno, bonito e amigável que o bash).
+
+# Cria diretório padrão da aplicação
+RUN mkdir -p /app
+
+# Define o diretório de trabalho
+WORKDIR /app
+
+# Comando padrão: entra no shell fish
+CMD ["fish"]
